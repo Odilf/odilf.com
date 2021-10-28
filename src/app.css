@@ -1,0 +1,105 @@
+@import "@fontsource/raleway";
+@import "@fontsource/raleway/400.css";
+
+:root {
+	font-family: "Raleway";
+
+	--primary-hsl: 206, 72%, 11%;
+	--secondary-hsl: 215, 26%, 23%;
+	--tertiary-hsl: 206, 26%, 27%;
+	--accent-hsl: 10, 100%, 58%;
+
+	--primary: hsl(var(--primary-hsl));
+	--secondary: hsl(var(--secondary-hsl));
+	--tertiary: hsl(var(--tertiary-hsl));
+	--accent: hsl(var(--accent-hsl));
+	
+	--text-color: whitesmoke;
+	color: var(--text-color);
+}
+
+/* #svelte {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+} */
+
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+p {
+	font-weight: 400;
+	color: var(--heading-color);
+}
+
+p {
+	line-height: 1.15;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+/* pre {
+	font-size: 16px;
+	font-family: var(--font-mono);
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+	padding: 0.5em;
+	overflow-x: auto;
+	color: var(--text-color);
+} */
+
+input,
+button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	color: var(--text-color);
+	padding: 1em;
+	border-radius: 20px;
+
+	transition: all 0.2s;
+}
+
+button:hover {
+	background: hsla(var(--accent-hsl), 20%);
+	padding: 1em 1.2em;
+	/* background-color: #ff000064; */
+}
+
+button:active {
+	background: hsla(var(--accent-hsl), 40%);
+}
