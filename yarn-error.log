@@ -1,5 +1,5 @@
 Arguments: 
-  /opt/homebrew/Cellar/node/16.11.1/bin/node /opt/homebrew/bin/yarn add sveltethree
+  /opt/homebrew/Cellar/node/16.11.1/bin/node /opt/homebrew/bin/yarn add jshiny
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin
@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/sveltethree: Not found
+  Error: https://registry.yarnpkg.com/jshiny: Not found
       at Request.params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66988:18)
       at Request.self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140662:22)
       at Request.emit (node:events:390:28)
@@ -51,6 +51,7 @@ npm manifest:
       "@fontsource/fira-mono": "^4.5.0",
       "@fontsource/raleway": "^4.5.0",
       "@lukeed/uuid": "^2.0.0",
+      "@sveltejs/adapter-vercel": "^1.0.0-next.0",
       "cookie": "^0.4.1"
     }
   }
@@ -113,6 +114,11 @@ Lockfile:
     dependencies:
       estree-walker "^2.0.1"
       picomatch "^2.2.2"
+  
+  "@sveltejs/adapter-vercel@^1.0.0-next.0":
+    version "1.0.0-next.0"
+    resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.0.tgz#5a82c4eab9df72e851b23161ace0f64beaa8cabf"
+    integrity sha512-dQf40/2vrgRfuQ++tIAlvEgjdGUkXJTSjO5syqJd5oH2HDbP3Shi+2AxWpKAqRFGyRbXDe9ej0MK1G2soZP4fQ==
   
   "@sveltejs/kit@next":
     version "1.0.0-next.171"

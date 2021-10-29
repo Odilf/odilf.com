@@ -15,13 +15,15 @@
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+	"@sveltejs/adapter-vercel": "next"
   },
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
     "@fontsource/raleway": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
+    "cookie": "^0.4.1",
+    "jshint": "^2.13.1"
   }
 }
