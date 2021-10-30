@@ -19,6 +19,11 @@
 			FAM is a lighthearted project where me and my friend, <a href='https://www.instagram.com/claraaagv_/'> Clara</a>, show our love for Maggie, the cat from our friend, Javi. 
 		</p>
 	</body>
+
+	<footer> 
+		<button on:click={() => window.open('https://www.fam.odilf.com/')}> Visit site </button>
+		<button on:click={() => window.open('https://github.com/Odilf/FAM')}> GitHub </button>
+	</footer>
 </CarousselItem>
 
 <style>

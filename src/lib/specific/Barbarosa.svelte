@@ -14,6 +14,11 @@
 			Barbarosa is a Rubik's cube solver and scrambler, built on <a href='https://julialang.org/' target="_blank"> Julia </a>. It uses an IDA* algorithm with an AI-enhanced heuristic for optimal performance. 
 		</p>
 	</body>
+
+	<footer> 
+		<button on:click={() => window.open('https://www.barbarosa.odilf.com/')}> Visit site </button>
+		<button on:click={() => window.open('https://github.com/Odilf/Barbarosa')}> GitHub </button>
+	</footer>
 </CarousselItem>
 
 <style>
