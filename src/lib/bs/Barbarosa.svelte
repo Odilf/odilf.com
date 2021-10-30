@@ -1,4 +1,9 @@
-<main>
+<script lang="ts">
+	export let main
+</script>
+
+
+<main bind:this={main}>
 	<h1>
 		Barbarosa	
 	</h1>

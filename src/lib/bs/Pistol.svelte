@@ -1,4 +1,14 @@
-<main>
+<script lang="ts">
+	export let main = null;
+
+	
+	$: console.log(main && main.offsetHeight)
+
+	// $: main && main.scrollIntoView()
+
+</script>
+
+<main bind:this={main}>
 	<h1>
 		Pistol
 	</h1>

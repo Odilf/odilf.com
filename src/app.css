@@ -13,8 +13,11 @@
 	--secondary: hsl(var(--secondary-hsl));
 	--tertiary: hsl(var(--tertiary-hsl));
 	--accent: hsl(var(--accent-hsl));
+
+	--shadow: 0 0 5px var(--secondary);
 	
 	--text-color: whitesmoke;
+	background-color: var(--tertiary);
 	color: var(--text-color);
 }
 

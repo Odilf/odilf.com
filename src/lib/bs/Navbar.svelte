@@ -1,10 +1,13 @@
 <script lang=ts>
-	import Spacer from "./Spacer.svelte";
+	import Spacer from "../Spacer.svelte";
 
 	export let value = 0;
 	export let scroll: number;
 	
 	export let element
+	export let objects
+
+	$: console.log( $$slots );
 
 	// $: console.log(element && element.scrollHeight);
 	$: console.log(value)
@@ -14,12 +17,14 @@
 </script>
 
 <main>
-	<button on:click={() => scroll=20} class={value == 1 ? "clicked" : ""}> Pistol </button>
+	<button on:click={() => objects[0].scrollIntoView()} class={value == 1 ? "clicked" : ""}> Pistol </button>
 	<Spacer/>
-	<button on:click={() => value = 2} class={value == 2 ? "clicked" : ""}> Barbarosa </button>
+	<button on:click={() => objects[1].scrollIntoView()} class={value == 2 ? "clicked" : ""}> Barbarosa </button>
 	<Spacer/>
-	<button on:click={() => value = 3} class={value == 3 ? "clicked" : ""}> FAM </button>
+	<button on:click={() => objects[2].scrollIntoView()} class={value == 3 ? "clicked" : ""}> FAM </button>
 </main>
+
+<slot this={2}/>
 
 <style>
 	main {

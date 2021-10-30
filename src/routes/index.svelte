@@ -3,37 +3,37 @@
 </script>
 
 <script lang="ts">
-	import Navbar from '$lib/Navbar.svelte';
-	import Pistol from '$lib/Pistol.svelte';
-	import Barbarosa from '$lib/Barbarosa.svelte'
 
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte'
+	import MainCaroussel from '$lib/specific/MainCaroussel.svelte';
 
 	let show = false
 	onMount(() => show = true)
-
-	let scroll;
-	let body
+	
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
-<svelte:window bind:scrollY={scroll}/>
+<!-- <svelte:window bind:scrollY={scroll}/> -->
 
 {#if show}
 
 <main>
 	<h1 transition:fly={{y: -200, duration: 2000}}> Odilf.com </h1>
 
-	<body bind:this={body} transition:fly={{y: 100, duration: 1500}}>
-		<Navbar bind:scroll bind:element={body}/>
-		<Pistol />
-		<Barbarosa />
+	<body transition:fly={{y: 100, duration: 1500}}>
+		<MainCaroussel/>
+
+		<p>
+			Yoo
+		</p>
 	</body>
 </main>
+
+
 
 {/if}
 
@@ -66,6 +66,10 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		padding-bottom: 500px;
+
+		box-shadow: var(--shadow)
 	}
 
 </style>
