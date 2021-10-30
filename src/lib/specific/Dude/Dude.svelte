@@ -8,7 +8,6 @@ import Shirt from "./Shirt.svelte";
 </script>
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="794.000000pt" height="1476.000000pt" viewBox="0 0 794.000000 1476.000000"
-preserveAspectRatio='XMidYMax meet'
 >
 	<ArmLeft/>
 	<ArmRight/>

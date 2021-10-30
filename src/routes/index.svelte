@@ -20,9 +20,11 @@
 {#if show}
 
 <main>
-	<header transition:fly={{y: -200, duration: 2000}}>
-		<h1> Odilf.com </h1>
-		<Dude />
+	<header>
+		<h1 transition:fly={{y: -200, duration: 2000}}> Odilf.com </h1>
+		<dude transition:fly={{y: 200, duration: 2000}}>
+			<Dude />
+		</dude>
 	</header>
 	
 	<body transition:fly={{y: 100, duration: 1500}}>
@@ -35,10 +37,16 @@
 
 <style>
 	@import "@fontsource/caveat";
+	dude {
+		position: absolute;
+		height: 80vh;
+		width: 100%;
+	}
 	
 	h1 {
 		font-family: 'Caveat';
 		color: var(--text-color);
+
 		font-size: min(500px, 25vw);
 		padding: 1rem;
 		/* height: 70vh; */
