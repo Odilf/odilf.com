@@ -25,6 +25,7 @@
     "@fontsource/raleway": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "jshint": "^2.13.1"
+    "jshint": "^2.13.1",
+    "smoothscroll-polyfill": "^0.4.4"
   }
 }

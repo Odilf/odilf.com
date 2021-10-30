@@ -2,6 +2,9 @@
 	import Pistol from "./Pistol.svelte"
 	import Barbarosa from "./Barbarosa.svelte"
 	import Fam from "./FAM.svelte"
+	
+	import smoothscroll from 'smoothscroll-polyfill';
+	smoothscroll.polyfill();
 
 	let peek_delay = 300
 	let timeout
@@ -33,7 +36,7 @@
 		{#each projects as project, i}
 			<button 
 				on:click={() => selected = i} 
-				on:click={() => main.scrollIntoView({block: 'center'})} 
+				on:click={() => main.scrollIntoView({block: 'center', behavior: 'smooth'})} 
 				on:mouseover={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
 				on:focus={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
 				on:mouseleave={() => {peaking = null; clearTimeout(timeout)}}
@@ -59,12 +62,14 @@
 	main {
 		display: flex;
 		align-items: center;
+		flex-direction: column;
 
 		width: 100%;
 		height: 85vh;
 	}
 
 	nav {
+		z-index: 2;
 		position: sticky;
 		margin: 2em;
 		width: 20%;

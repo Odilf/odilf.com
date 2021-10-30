@@ -34,6 +34,7 @@
 			</p>
 		</section>
 		<MainCaroussel />
+
 	</body>
 </main>
 
