@@ -20,6 +20,8 @@
 	--text-color: whitesmoke;
 	background-color: var(--tertiary);
 	color: var(--text-color);
+
+	--mobile-width: 620px;
 }
 
 /* #svelte {

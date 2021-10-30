@@ -48,7 +48,7 @@
 
 		overflow: scroll;
 		background-color: var(--secondary); 
-		padding: 3em;
+		padding: min(3em, 6vw);
 		border-radius: 1em;
 
 		box-shadow: 0 0 10px black;

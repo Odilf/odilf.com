@@ -39,8 +39,10 @@
 	a {
 		color: white;
 	}
-
 	footer {
 		margin-top: 1em;
+	}
+	img {
+		width: 100%;
 	}
 </style>

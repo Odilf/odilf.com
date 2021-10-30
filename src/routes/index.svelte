@@ -84,7 +84,7 @@
 		border-top-left-radius: var(--border);
 		border-top-right-radius: var(--border);
 
-		padding: 2em;
+		padding: min(3em, 6vw);
 		padding-top: 10%;
 		background: var(--primary);
 		color: var(--text-color);

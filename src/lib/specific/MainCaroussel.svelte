@@ -62,10 +62,9 @@
 	main {
 		display: flex;
 		align-items: center;
-		flex-direction: column;
 
 		width: 100%;
-		height: 85vh;
+		height: min(100vh, 800px);
 	}
 
 	nav {
@@ -84,12 +83,23 @@
 
 	body {
 		flex-grow: 5;
-		width: 80%;
+		width: min(820px, 100%);
 		height: 100%;
 		position: relative;
 	}
 	.active {
 		background-color: hsla(var(--accent-hsl), 70%);
+	}
+
+	@media (max-width: 620px) {
+		main {
+			flex-direction: column;
+		}
+		nav {
+			width: 100%;
+			flex-direction: row;
+			justify-content: center;
+		}
 	}
 
 </style>
