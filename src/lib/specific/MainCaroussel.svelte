@@ -36,7 +36,7 @@
 		{#each projects as project, i}
 			<button 
 				on:click={() => selected = i} 
-				on:click={() => main.scrollIntoView({block: 'center', behavior: 'smooth'})} 
+				on:click={() => main.scrollIntoView( {block: 'center', behavior: 'smooth'} )} 
 				on:mouseover={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
 				on:focus={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
 				on:mouseleave={() => {peaking = null; clearTimeout(timeout)}}

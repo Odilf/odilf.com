@@ -27,6 +27,8 @@ width="794.000000pt" height="1476.000000pt" viewBox="0 0 794.000000 1476.000000"
 		width: 100%;
 		opacity: 40%;
 
+		filter: drop-shadow(0 0 1em black); 
+
 		/* transform: translate(0, -10%); */
 	}
 </style>

@@ -7,6 +7,7 @@
 	import { onMount } from 'svelte'
 	import MainCaroussel from '$lib/specific/MainCaroussel.svelte';
 	import Dude from '$lib/specific/Dude/Dude.svelte';
+	import AboutMe from '$lib/specific/AboutMe.svelte';
 
 	let show = false
 	onMount(() => show = true)
@@ -30,10 +31,11 @@
 	<body transition:fly={{y: 100, duration: 1500}}>
 		<section>
 			<p>
-				Hi, I'm Ody! In this website you can see some of the project that are out on the Internet. Take a look!
+				Hi, I'm Ody! In this website you can see some of my projects that are out on the Internet. Take a look!
 			</p>
 		</section>
 		<MainCaroussel />
+		<AboutMe />
 
 	</body>
 </main>
@@ -54,6 +56,7 @@
 
 		font-size: min(500px, 25vw);
 		padding: 1rem;
+		text-shadow: 0 0 0.2em hsla(0, 0%, 100%, 30%);
 		/* height: 70vh; */
 		
 		/* margin: 20vh 0; */

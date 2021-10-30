@@ -54,7 +54,7 @@
 		box-shadow: 0 0 10px black;
 
 		transition: all 0.5s ease;
-		transition: z-index 0.1s none 0.5s;
+		/* transition: z-index 0.1s none 0.5s; */
 
 
 		display: flex;
@@ -71,6 +71,7 @@
 		/* z-index: 1; */
 		transform: translate(-2em, var(--real-distance)) rotate(5deg);
 		opacity: 0%;
+		pointer-events: none;
 	}
 
 	.before {
