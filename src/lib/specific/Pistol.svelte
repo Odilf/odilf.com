@@ -6,7 +6,7 @@
 </script>
 
 <CarousselItem {selected} index={0} {peaking}>
-	<h1> <a href='https://www.pistoltimer.com/'> Pistol </a> </h1>
+	<h1> <a href='https://www.pistoltimer.com/' target="_blank"> Pistol </a> </h1>
 	
 
 	<body>
@@ -24,10 +24,10 @@
 		</p>
 	</body>
 	
-	<img src='pistol-demo.gif' alt='pistol demo' />
+	<img src='pistol-demo.gif' alt='pistol demo' loading='lazy'/>
 	<footer> 
-		<button> Visit site </button>
-		<button> GitHub </button>
+		<button on:click={() => window.open('https://www.pistoltimer.com/')}> Visit site </button>
+		<button on:click={() => window.open('https://www.github.com/')}> GitHub </button>
 	</footer>
 	
 </CarousselItem>
