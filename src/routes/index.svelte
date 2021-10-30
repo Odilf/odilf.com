@@ -22,14 +22,18 @@
 <main>
 	<header>
 		<h1 transition:fly={{y: -200, duration: 2000}}> Odilf.com </h1>
-		<dude transition:fly={{y: 200, duration: 2000}}>
+		<div class=dude transition:fly={{y: 200, duration: 2000}}>
 			<Dude />
-		</dude>
+		</div>
 	</header>
 	
 	<body transition:fly={{y: 100, duration: 1500}}>
+		<section>
+			<p>
+				Hi, I'm Ody! In this website you can see some of the project that are out on the Internet. Take a look!
+			</p>
+		</section>
 		<MainCaroussel />
-
 	</body>
 </main>
 
@@ -37,7 +41,7 @@
 
 <style>
 	@import "@fontsource/caveat";
-	dude {
+	.dude {
 		position: absolute;
 		height: 80vh;
 		width: 100%;
@@ -53,12 +57,18 @@
 		
 		/* margin: 20vh 0; */
 		z-index: 1;
+		pointer-events: none;
 	}
 	header {
 		min-height: 80vh;
 
 		display: grid;
 		place-content: center;
+	}
+
+	section {
+		width: min(100%, 620px);
+		font-size: 1.5em;
 	}
 	main {
 		background-color: var(--tertiary);
