@@ -1,70 +1,61 @@
 <script lang=ts>
-	import CarousselItem from "./CarousselItem.svelte"
+	import Pistol from "./Pistol.svelte"
+	import Barbarosa from "./Barbarosa.svelte"
+	import Fam from "./FAM.svelte"
+
+	let peek_delay = 300
+	let timeout
 
 	let selected = 0
+	let projects = ['Pistol', 'Barbarosa', 'FAM']
 	let peaking = null
+
+	let main
+
+
+
+	function handleKeydown(e) {
+		if (e.key === 'ArrowUp') {
+			if (selected !== 0) selected -= 1
+			e.preventDefault()
+		}
+		if (e.key === 'ArrowDown') {
+			if (selected !== projects.length - 1) selected += 1
+			e.preventDefault()
+		}
+	}
 </script>
 
-<main>
+<svelte:window on:keydown={handleKeydown} />
+
+<main bind:this={main}>
 	<nav>
-		{#each ['Pistol', 'Barbarosa', 'FAM'] as project, i}
-			<button on:click={() => selected = i} on:mouseover={() => peaking = i} on:focus={() => peaking = i} on:mouseleave={() => peaking = null}> {project} </button>
+		{#each projects as project, i}
+			<button 
+				on:click={() => selected = i} 
+				on:click={() => main.scrollIntoView({block: 'center'})} 
+				on:mouseover={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
+				on:focus={() => timeout = setTimeout(() => peaking = i, peek_delay)} 
+				on:mouseleave={() => {peaking = null; clearTimeout(timeout)}}
+				class={selected === i ? 'active' : ''}
+			> 
+				{project} 
+			</button>
 		{/each}
 	</nav>
 
 	<body>
 		
-		<CarousselItem {selected} index={0} {peaking}>
-			<h1> Virgin generator </h1>
-	
-			<p>
-				Here we generate virgin
-			</p>
-			
-			<p>
-				(Coppel)
-			</p>
-		</CarousselItem>
+		<Pistol {selected} {peaking} />
 		
-		<CarousselItem {selected} index={1} {peaking}>
-			<h1> gay generator </h1>
-	
-			<p>
-				Here we generate gay
-			</p>
-			
-			<p>
-				(Coppel)
-			</p>
-		</CarousselItem>
+		<Barbarosa {selected} {peaking} />
 
-		<CarousselItem {selected} index={2} {peaking}>
-			<h1> AAAAAA </h1>
-	
-			<p>
-				chus
-			</p>
-			
-			<p>
-				(im so)
-			</p>
-
-			<p>
-				<i>funny</i>
-			</p>
-
-			<img src='https://images.english.elpais.com/resizer/aMLtrzhSmlQnPrInIaCwJJYuKGE=/414x0/filters:focal(1052x792:1062x802)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IPZM424KYBEH7IVUKNQZETWHVU.jpg' alt='cat'>
-			<img src='https://images.english.elpais.com/resizer/aMLtrzhSmlQnPrInIaCwJJYuKGE=/414x0/filters:focal(1052x792:1062x802)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IPZM424KYBEH7IVUKNQZETWHVU.jpg' alt='cat'>
-			<img src='https://images.english.elpais.com/resizer/aMLtrzhSmlQnPrInIaCwJJYuKGE=/414x0/filters:focal(1052x792:1062x802)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IPZM424KYBEH7IVUKNQZETWHVU.jpg' alt='cat'>
-		</CarousselItem>
+		<Fam {selected} {peaking} />
 
 	</body>
 </main>
 
 <style>
-
-	
-
 	main {
 		display: flex;
 		align-items: center;
@@ -74,6 +65,7 @@
 	}
 
 	nav {
+		position: sticky;
 		margin: 2em;
 		width: 20%;
 		display: flex;
@@ -91,4 +83,8 @@
 		height: 100%;
 		position: relative;
 	}
+	.active {
+		background-color: hsla(var(--accent-hsl), 70%);
+	}
+
 </style>

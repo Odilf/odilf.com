@@ -3,10 +3,10 @@
 </script>
 
 <script lang="ts">
-
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte'
 	import MainCaroussel from '$lib/specific/MainCaroussel.svelte';
+	import Dude from '$lib/specific/Dude/Dude.svelte';
 
 	let show = false
 	onMount(() => show = true)
@@ -17,32 +17,40 @@
 	<title>Home</title>
 </svelte:head>
 
-<!-- <svelte:window bind:scrollY={scroll}/> -->
-
 {#if show}
 
 <main>
-	<h1 transition:fly={{y: -200, duration: 2000}}> Odilf.com </h1>
-
+	<header transition:fly={{y: -200, duration: 2000}}>
+		<h1> Odilf.com </h1>
+		<Dude />
+	</header>
+	
 	<body transition:fly={{y: 100, duration: 1500}}>
-		<MainCaroussel/>
+		<MainCaroussel />
 
-		<p>
-			Yoo
-		</p>
 	</body>
 </main>
-
-
 
 {/if}
 
 <style>
+	@import "@fontsource/caveat";
+	
 	h1 {
+		font-family: 'Caveat';
 		color: var(--text-color);
-		font-size: min(10em, 20vw);
-		font-weight: 700;
-		margin: 1em 0;
+		font-size: min(500px, 25vw);
+		padding: 1rem;
+		/* height: 70vh; */
+		
+		/* margin: 20vh 0; */
+		z-index: 1;
+	}
+	header {
+		min-height: 80vh;
+
+		display: grid;
+		place-content: center;
 	}
 	main {
 		background-color: var(--tertiary);
@@ -61,7 +69,7 @@
 		padding-top: 10%;
 		background: var(--primary);
 		color: var(--text-color);
-		flex-grow: 1;
+		z-index: 1;
 
 		display: flex;
 		flex-direction: column;

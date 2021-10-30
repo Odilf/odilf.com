@@ -1,15 +1,19 @@
 <script lang="ts">
 	export let selected = 0
-	export let index
+	export let index: number
 	export let peaking = 0
 
 	function getClass(selected: number, selection: number, peaking = null): string {
 		let cssClass = ''
 
-		// peaking = null;
-
 		if (selection == selected) {
-			return 'active'
+			cssClass = 'active'
+			if (peaking !== null && peaking !== index) {
+				cssClass += ' peaked'
+				if (peaking < selected) cssClass += ' before'
+				if (peaking > selected) cssClass += ' after'
+			}
+			return cssClass
 		} else {
 			if (selection < selected) cssClass = 'before'
 			if (selection > selected) cssClass = 'after'
@@ -31,8 +35,9 @@
 
 <style>
 	:root {
-		--distance: 100%;
+		--distance: 90%;
 		--peak-factor: 0.95;
+		--peak-delay: 0.3s;
 	}
 
 	body {
@@ -54,7 +59,7 @@
 
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		/* justify-content: center; */
 		align-items: center;
 	}
 
@@ -64,7 +69,7 @@
 
 	.hidden {
 		/* z-index: 1; */
-		transform: translate(0, var(--real-distance));
+		transform: translate(-2em, var(--real-distance)) rotate(5deg);
 		opacity: 0%;
 	}
 
@@ -77,7 +82,15 @@
 	}
 
 	.peaking {
+		/* transition: all 0.5s ease var(--peak-delay); */
 		transform: translate(0, calc(var(--real-distance) * var(--peak-factor)));
-		opacity: 100%;
+		opacity: 30%;
+	}
+
+	.peaked {
+		/* transition: all 0.5s ease var(--peak-delay); */
+		opacity: 90%;
+		/* margin: var(--real-distance); */
+		transform: translate(0, calc(calc(var(--peak-factor) - 1) * var(--real-distance)));
 	}
 </style>

@@ -1,5 +1,6 @@
 @import "@fontsource/raleway";
 @import "@fontsource/raleway/400.css";
+@import "@fontsource/raleway/800.css";
 
 :root {
 	font-family: "Raleway";
@@ -35,11 +36,17 @@ body {
 	margin: 0;
 }
 
-h1,
+h1 {
+	font-weight: 800;
+}
 h2,
 p {
 	font-weight: 400;
 	color: var(--heading-color);
+}
+
+h3 {
+	opacity: 50%;
 }
 
 p {
