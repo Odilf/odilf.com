@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CarousselItem from '$lib/specific/CarousselItem.svelte';
+	import CarousselItem from './CarousselItem.svelte';
 
 	export let selected: number
 	export let peaking: number

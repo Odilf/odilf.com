@@ -1,6 +1,6 @@
 <script lang="ts">
-	import CarousselItem from '$lib/specific/CarousselItem.svelte';
-
+	import CarousselItem from './CarousselItem.svelte';
+	
 	export let selected: number
 	export let peaking: number
 </script>
@@ -11,12 +11,12 @@
 	<body>
 		<h3> Maggie's fan page </h3>
 		<p>
-			FAM is the official <a href='https://fam.odilf.com'> Maggie Fan and Worship Club</a>. 
+			FAM is the official <a href='https://fam.odilf.com' target='_blank' rel="noopener"> Maggie Fan and Worship Club</a>. 
 			If you're wondering who Maggie is, well... Maggie is a cat! Maggie is in fact Javi's cat. 
 		</p>
 
 		<p>
-			FAM is a lighthearted project where me and my friend, <a href='https://www.instagram.com/claraaagv_/'> Clara</a>, show our love for Maggie, the cat from our friend, Javi. 
+			FAM is a lighthearted project where me and my friend, <a href='https://www.instagram.com/claraaagv_/' target="_blank" rel="noopener"> Clara</a>, show our love for Maggie, the cat from our friend, Javi. 
 		</p>
 	</body>
 

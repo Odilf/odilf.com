@@ -1,11 +1,11 @@
-<script context="module" lang="ts">
+<script context="module">
 	export const prerender = true;
 </script>
 
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte'
-	import MainCaroussel from '$lib/specific/MainCaroussel.svelte';
+	import MainCaroussel from '$lib/specific/caroussel/MainCaroussel.svelte';
 	import Dude from '$lib/specific/Dude/Dude.svelte';
 	import AboutMe from '$lib/specific/AboutMe.svelte';
 

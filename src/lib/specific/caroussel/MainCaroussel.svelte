@@ -2,6 +2,7 @@
 	import Pistol from "./Pistol.svelte"
 	import Barbarosa from "./Barbarosa.svelte"
 	import Fam from "./FAM.svelte"
+	import OdilfDotCom from "./OdilfDotCom.svelte"
 	
 	import smoothscroll from 'smoothscroll-polyfill';
 	smoothscroll.polyfill();
@@ -9,8 +10,8 @@
 	let peek_delay = 300
 	let timeout
 
-	let selected = 0
-	let projects = ['Pistol', 'Barbarosa', 'FAM']
+	let selected = 3
+	let projects = ['Pistol', 'Barbarosa', 'FAM', 'Odilf.com']
 	let peaking = null
 
 	let main
@@ -50,10 +51,9 @@
 	<body>
 		
 		<Pistol {selected} {peaking} />
-		
 		<Barbarosa {selected} {peaking} />
-
 		<Fam {selected} {peaking} />
+		<OdilfDotCom {selected} {peaking}/>
 
 	</body>
 </main>
