@@ -45,5 +45,6 @@
 	}
 	body {
 		width: min(620px, 90vw);
+		text-align: justify;
 	}
 </style>
