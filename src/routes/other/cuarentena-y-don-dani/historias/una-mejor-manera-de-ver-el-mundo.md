@@ -1,3 +1,9 @@
+---
+titulo: Una introduccion a una mejor manera de ver el mundo
+fecha: 2020/03/29 
+asignatura: Lengua
+---
+
 Siempre me dicen que pienso de manera matemática. Y a veces me dicen que a lo mejor me paso. Pero no, simplemente lo aplico globalmente y lo generalizo lo suficiente para que sea útil. 
 
 Hay una asunción, con la que puedes resolver todos los problemas de la vida. Esa es que el razonamiento matemático no tiene problemas indetectables dentro del sistema. Eso, por su propia naturaleza, es indemostrable, pero toda la evidencia experimental que tenemos lo confirma. Con eso, solo hace falta llegar al punto del razonamiento crítico para tener un sistema que siempre funciona. Si analizas una situación con suficiente determinación, puedes siempre encontrar el mejor curso de acción, y hasta respuestas obvias que no habrías encontrado utilizando razonamiento intuitivo. 

@@ -2,6 +2,7 @@
 	<a href='/'> Home </a>
 	<a href='/projects'> Projects </a>
 	<a href='/blog'> Blog </a>
+	<a href='/other'> Other </a>
 </nav>
 
 <style>

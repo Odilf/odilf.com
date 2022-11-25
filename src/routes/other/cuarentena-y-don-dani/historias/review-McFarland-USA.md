@@ -1,3 +1,9 @@
+---
+titulo: "Review: McFarland, USA"
+fecha: 2020/04/05 
+asignatura: English
+---
+
 > “A sports movie”
 
 McFarland, USA is a sports movie. I would like to end this review here, but I am going to keep on going, just because I have to. 

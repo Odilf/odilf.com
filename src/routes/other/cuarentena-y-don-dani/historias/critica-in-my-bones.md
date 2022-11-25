@@ -1,3 +1,9 @@
+---
+titulo: "Crítica: In my Bones"
+fecha: 2020/03/28
+asignatura: Lengua
+---
+
 ¿Qué sucede cuando el músico más virtuoso del mundo, se viene arriba? 
 Una explosión de Funk conocida como In My Bones. 
 

@@ -1,3 +1,9 @@
+---
+titulo: Canciones y amor, supongo
+fecha: 2020/04/09
+asignatura: Lengua
+---
+
 Estoy perdidísimo. No me entero de nada. El enunciado dice que utilicemos poemas o canciones para hacer una reflexión sobre cómo ha evolucionado el concepto del amor a lo largo del tiempo. Cuando dice que valen canciones, ¿valdría A Love Supreme de John Coltrane? No tiene letra, pero va de amor. Y ya que estamos, ¿tiene que ir de amor?
 
 Y podría (más bien, podríamos, porque no estaba solo en mi angustia de no enterarme que tenía que hacer) haber mandado un correo, pero yo creo que tampoco importa la canción. Esto se debe a que no puedes utilizar arte para ver cómo a cambiado el amor. Si acaso podrías comparar cómo cambia para los artistas, pero las masas simplemente proyectan su experiencia al contenido. La gente sigue escuchando canciones del siglo XX en los ciclos de nostalgia y tienen, básicamente, el mismo impacto. 

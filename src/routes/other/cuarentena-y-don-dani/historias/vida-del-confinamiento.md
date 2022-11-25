@@ -1,3 +1,9 @@
+---
+titulo: Vida del confinamiento
+fecha: 2020/04/08 
+asignatura: Lengua
+---
+
 La mayoría de la gente creo que definiría cómo “triste” lo poco que ha cambiado mi vida. Por lo menos el 95% del tiempo que estaba fuera de casa era para estar en el colegio y, siendo sincero, no me importa tanto no ver a mis amigos, porque hablamos constantemente online. 
 
 Todo el rato se nos avisaba de que esto no serían vacaciones, pero tampoco son días lectivos. Me gusta mucho más que podamos organizar nosotros el trabajo. Así, en vez de quedarme horas mirando a la ventana por semana cuando ya he acabado el trabajo, puedo hacer algo productivo con mi vida. Diría que es mejor que vacaciones, porque el trabajo que hacemos hace que no me sienta cómo si no estuviese haciendo nada. 

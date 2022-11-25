@@ -1,3 +1,9 @@
+---
+titulo: Un estilo de vida mas eficiente
+fecha: 2020/04/10 
+asignatura: Lengua
+---
+
 Hay gente a la cual el confinamiento le causa mucha ansiedad, estrés y problemas, en general. A mi no. Hablemos de mi y de la cuarentena. 
 
 He visto a personas que dicen que la vida sin salir es cómo la vida normal, pero peor porque no puedes ver a otras personas. Parece hasta obvio, pero yo no tengo ese problema. Hablar con mis amigos online me trae la mayoría de la satisfacción social que necesito. Entonces, ¿para mí es como si no ha pasado nada? No, es mucho mejor. 

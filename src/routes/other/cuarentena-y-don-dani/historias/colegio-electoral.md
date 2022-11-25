@@ -1,3 +1,9 @@
+---
+titulo: Defensa de la eliminación del Colegio Electoral estadounidense
+fecha: 2020/05/21 
+asignatura: Lengua
+---
+
 El Colegio Electoral de los Estados Unidos es el encargado de elegir al presidente y vicepresidente; contrario a la creencia popular: los ciudadanos no votan al presidente. Votan a personas para que voten lo que ellos han votado cuando estén en el Colegio Electoral. Asimismo, los 538 votos del Colegio Electoral, en EEUU, no están repartidos equitativamente, sino que los estados más pequeños tienen más votos por población que los grandes. Esto da lugar a que el voto de los ciudadanos de los estados menos poblados valga más, que a su vez plantea la posibilidad de que no gane el candidato más popular. Y esto ha pasado cuatro veces, incluyendo la elección de 2016, que por el descontento causado ha hecho que se intente eliminar este sistema, aunque aún hay oposición. 
 
 El sistema electoral de los Estados Unidos tiene como objetivo, primero, repartir el poder entre el nivel individual, estatal y federal y, segundo, poder recoger votos del ancho de un continente cuando lo más rápido era un caballo. Es decir, el sistema no intentaba ajustarse a los ideales democráticos que asumo que consideramos los mejores. Cuando se dice que el Colegio Electoral se debería mantener, se suele argumentar que sirve para que los estados grandes no tengan todo el poder y ganen de manera injusta. Pero si la mayoría de la gente quiere algo, eso es lo que se debería hacer. Con este sistema, el voto cambia en función de fronteras estatales y posición de los votantes. Reitero, esto es sobre todo para que los estados tengan más poder, es un compromiso; no una defensa de los derechos del votante. 

@@ -1,3 +1,9 @@
+---
+titulo: Un faccioso mas y un ser de luz menos
+fecha: 2019/12/09
+asignatura: Lengua
+---
+
 > Cuento realista por
 > Odiseas Machairas
 

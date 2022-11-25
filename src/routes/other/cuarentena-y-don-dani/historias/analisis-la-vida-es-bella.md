@@ -1,3 +1,9 @@
+---
+titulo: Análisis La Vida es Bella
+fecha: 2020/05/12 
+asignatura: Valores Éticos
+---
+
 Valores éticos - 2019/2020![](https://lh5.googleusercontent.com/WNi1KdLjjc7jrZ6b1HasWegyUeq_PuN3ZvadJJcK8vQbW8hysEnnVZpm9L2umUqAyruC3T92K8IZIGlH0u-rMDUU59dFrKP9UY9GxWGiFEgxQY9DebmdaWr8jid-_gnsWxgOiIcxe3GkRzkznR8JgS4CPy-fNlXXsh4p4hCIEizaMOLN003g_MNppTLd-R2LIcEx5vVS)  
 
 Actividades

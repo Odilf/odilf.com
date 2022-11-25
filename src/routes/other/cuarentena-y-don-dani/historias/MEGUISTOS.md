@@ -1,3 +1,9 @@
+---
+titulo: MEGUISTOS
+fecha: 2019/09/25 
+asignatura: Lengua
+---
+
 ## Un relato de poder y del futuro
 > *Autobiografía de Odiseas Machairas*
 

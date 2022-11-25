@@ -1,4 +1,8 @@
-Nada interesante
+---
+titulo: Nada interesante
+fecha: 2020/03/18 
+asignatura: Lengua
+---
 
 Todos los días, sea fin de semana o no, mi rutina es igual: Me levanto a las 7:45, me ducho, preparo mi desayuno y me entra una sensación de felicidad al darme cuenta de que no, hoy tampoco, tendré que ir al colegio. Esa es la única diferencia. 
 

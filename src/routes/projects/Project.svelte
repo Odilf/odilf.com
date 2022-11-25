@@ -3,6 +3,7 @@
 	import type { Project } from "./projects"
 
 	import { slide } from "svelte/transition";
+    import { dateOptions } from "$lib/globals";
 
 	export let project: Project
 
@@ -14,12 +15,6 @@
 		startDate,
 		status,
 	} = project)
-
-	const dateOptions: Intl.DateTimeFormatOptions = {
-		year: 'numeric', 
-		month: 'long', 
-		day: 'numeric',
-	} as const
 
 	function statusText() {
 		switch (status) {
@@ -45,7 +40,7 @@
 		<div class='details' transition:slide|local={{}}>
 			<div class='links'>
 				{#if repo}
-				<a href={repo} target="_blank" rel="noreferrer"> GitHub repo </a>
+				<a href={repo} target="_blank" rel="noreferrer"> GitHub </a>
 				{/if}
 				
 				{#if website}
@@ -106,9 +101,5 @@
 
 	a:hover {
 		background-color: var(--neutral-hover);
-	}
-
-	.faint {
-		opacity: 50%;
 	}
 </style>

@@ -1,4 +1,8 @@
-Un salto con sentido
+---
+titulo: Un salto con sentido
+fecha: 2020/05/08 
+asignatura: Lengua
+---
 
 Suicidarse no tiene sentido. En sentido matemático. Porque si tu vida ya no tiene sentido, tienes una oportunidad enorme. Si literalmente no puedes perder nada, puedes intentar cualquier cosa, aunque sea contraria al sentido común. Allá por el 1973, Cooper estaba en esa situación, así que decidió tirarse por un avión. Tiene sentido, ¿no?
 

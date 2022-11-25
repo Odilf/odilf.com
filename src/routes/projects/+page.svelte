@@ -7,7 +7,7 @@
 
 <main class='content'>
 	<h1> Projects </h1>
-	<p>
+	<p class='faint'>
 		Here are some of the things I've done over the years: 
 	</p>
 
@@ -19,7 +19,7 @@
 		{/each}
 	</ul>
 
-	<p style='margin-top: 3em; opacity: 50%;'>
+	<p style:margin-top="3em" class='faint'>
 		..or you could just directly check out my <a href="https://github.com/Odilf"> GitHub </a>
 	</p>
 </main>
@@ -38,7 +38,6 @@
 	}
 
 	li {
-		list-style: none;
 		margin-block: 1em;
 	}
 </style>

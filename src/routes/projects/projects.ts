@@ -97,7 +97,7 @@ export const projects: readonly Project[] = [
 		repo: "https://github.com/Odilf/Minigames",
 		website: "https://www.minigames.odilf.com/",
 
-		startDate: new Date("2022-08-03"),
+		startDate: new Date("2022-05-03"),
 		status: 'finished',
 	},
 

@@ -1,3 +1,9 @@
+---
+titulo: Si sufrimos es por algo
+fecha: 2020/04/29 
+asignatura: Lengua
+---
+
 Para todas las personas es difícil cambiar la manera de hacer algo en su vida si al principio parece ser peor, dando igual si eventualmente sea ordenes de magnitud mejor. Y mientras que de forma individual puedes convencer a alguien a cambiar, la ley de los grandes números te dice que a mayores escalas es imposible. Necesitarías un impulso, hacer de alguna manera que las personas hagan eso que quieres de tu manera distinta hasta que vean cómo es mejor para ellas. Un impulso, ¿cómo quizás el coronavirus?
 
 No. Casi nada va a cambiar. Por lo menos, nada de lo que queremos que cambie va a cambiar.

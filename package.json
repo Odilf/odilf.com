@@ -12,6 +12,9 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"mdsvex": "^0.10.6",
+		"rehype-katex-svelte": "^1.1.2",
+		"remark-math": "2",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.6",

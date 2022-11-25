@@ -1,3 +1,9 @@
+---
+titulo: ∇
+asignatura: Lengua
+fecha: 2020/04/04
+---
+
 %%[^1]%%
 
 [^1]:  [Divergencia (matemática)](https://es.wikipedia.org/wiki/Divergencia_(matem%C3%A1tica))
