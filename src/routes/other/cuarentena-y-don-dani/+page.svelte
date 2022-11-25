@@ -5,7 +5,7 @@
 </script>
 
 <main class='content'>
-	<h1> Historias de quarentena, y Don Dani </h1>
+	<h1> Historias de cuarentena, y Don Dani </h1>
 
 	<p class='faint'>
 		Un conjunto de historias y escrituras que hice en cuarentena, a finales de 4 de la ESO, en 2020. 
