@@ -1,17 +1,15 @@
 <script lang="ts">
 	import "../styles.css"
+    import Nav from "./Nav.svelte";
 </script>
 
-<main>
+<Nav/>
+<div>
 	<slot />
-</main>
+</div>
 
 <style>
-	main {
-		max-width: 820px;
-		margin-inline: auto;
-		padding: 12px;
-
-		height: 100%;
+	div {
+		min-height: calc(100% - 56px);
 	}
 </style>

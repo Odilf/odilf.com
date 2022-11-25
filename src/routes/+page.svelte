@@ -10,8 +10,6 @@
 	<p>	
 		In the meantime, check out my <a href='/projects'> projects </a> or my <a href='https://github.com/Odilf' target="_blank" rel="noreferrer"> GitHub </a>
 	</p>
-
-	
 </main>
 
 <style>
@@ -20,7 +18,7 @@
 		place-items: center;
 		place-content: center;
 
-		min-height: 100%;
+		height: 100%;
 	}
 
 	svg {
