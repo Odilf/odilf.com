@@ -7,6 +7,6 @@
 
 <main class='content'>
 	<h1>{ data.title }</h1>
-	<p>Published: {new Date(data.date).toLocaleDateString(undefined, dateOptions)}</p>
+	<p class='faint'>{new Date(data.date).toLocaleDateString(undefined, dateOptions)}</p>
 	<svelte:component this={data.content} />
 </main>
