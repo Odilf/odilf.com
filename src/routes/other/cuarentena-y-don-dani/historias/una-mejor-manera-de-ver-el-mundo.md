@@ -1,6 +1,6 @@
 ---
 titulo: Una introduccion a una mejor manera de ver el mundo
-fecha: 2020/03/29 
+fecha: 2020/05/29 
 asignatura: Lengua
 ---
 

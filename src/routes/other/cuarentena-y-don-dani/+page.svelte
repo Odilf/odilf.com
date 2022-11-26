@@ -1,10 +1,14 @@
 <script lang="ts">
+    import Back from "$lib/Back.svelte";
+    import BlogEntry from "$lib/BlogEntry.svelte";
     import type { PageData } from "./$types";
 
 	export let data: PageData
 </script>
 
 <main class='content'>
+	<Back />
+
 	<h1> Historias de cuarentena, y Don Dani </h1>
 
 	<p class='faint'>
@@ -14,10 +18,10 @@
 	<ul>
 		{#each data.stories as escritura}
 			<li>
-				<a href="cuarentena-y-don-dani/{escritura.path}">
-					<h2> {escritura.titulo}</h2>
-					<p class='faint'> {new Date(escritura.fecha).toLocaleDateString("es-es", { dateStyle: "long" })}</p>
-				</a>
+				<BlogEntry 
+				title={escritura.titulo} 
+				subtitle={new Date(escritura.fecha).toLocaleDateString("es-es", { dateStyle: "long" })}
+				link="cuarentena-y-don-dani/{escritura.path}"/>
 			</li>
 		{/each}
 	</ul>
@@ -26,14 +30,10 @@
 <style>
 	ul {
 		padding: 0;
+		margin-top: 1em;
 	}
-	a {
-		display: block;
-		padding: 0.5em 1em;
-		transition: 100ms all ease;
-	}
-
-	a:hover {
-		background-color: var(--neutral-hover);
+	
+	li {
+		margin: 0;
 	}
 </style>

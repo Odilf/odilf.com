@@ -10,6 +10,10 @@
 	</p>
 </main>
 
+<svelte:head>
+	<title> Home </title>
+</svelte:head>
+
 <style>
 	main { 
 		display: grid;

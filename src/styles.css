@@ -5,7 +5,7 @@
 
 	--neutral: #27252a;
 	--neutral-hover: #1a191c;
-	--neutral-content: #ffffff;
+	--neutral-content: white;
 	
 	--primary: #9dc7e7;
 	--primary-content: #140033;
@@ -18,12 +18,13 @@
 @media (prefers-color-scheme: light) {
 	:root {
 		--neutral: #DAF0EE;
-		--neutral-content: #0C0F10;
+		--neutral-hover: #e5f3f2;
+		--neutral-content: black;
 		
-		--primary: #3B477D;
-		--primary-content: #232827;
+		--primary: #293156;
+		--primary-content: #9dc7e7;
 
-		--accent: #5b4d0e;
+		--accent: #6b5700;
 	}
 }
 
@@ -43,6 +44,7 @@ a:hover {
 
 button {
 	background-color: var(--neutral);
+	cursor: pointer;
 }
 
 .btn {
@@ -61,7 +63,7 @@ button {
 }
 
 .content {
-	max-width: 820px;
+	max-width: 720px;
 	margin-inline: auto;
 	padding: 12px;
 	padding-bottom: 2em;

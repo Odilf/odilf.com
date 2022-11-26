@@ -1,0 +1,11 @@
+.md-p {
+	margin-bottom: 1em;
+}
+
+.md-ul > .md-li {
+	list-style: disc;
+}
+
+.md-heading {
+	margin-top: 1em;
+}

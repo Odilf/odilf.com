@@ -11,15 +11,15 @@ asignatura: Lengua
 > *Zoe Machaira*
 
 Los exámenes de historia siempre le ponían nervioso, pero aún más los de a primera hora. Se levanta, desayuna y estudia. En el autobús, mientras va al colegio, sigue estudiando. Llega al colegio unos cinco minutos antes del examen y va al sitio donde se suele reunir con sus amigos.
-- ¿Y qué, te lo sabes bien? -, le preguntan, tras saludarle.
-- Yo creo que sí… No me di cuenta de que entraban los tipos de columnas… -; mientras habla, empieza a entonar como si fuese a hacer una broma:
- - ¡Pero me lo he estudiado lo último… lo primero… en el exa… lo voy… examen… a… -, pero se da cuenta de que no tenía ninguna en mente, como suele pasar.
+-¿Y qué, te lo sabes bien? -, le preguntan, tras saludarle.
+-Yo creo que sí… No me di cuenta de que entraban los tipos de columnas… -; mientras habla, empieza a entonar como si fuese a hacer una broma:
+-¡Pero me lo he estudiado lo último… lo primero… en el exa… lo voy… examen… a… -, pero se da cuenta de que no tenía ninguna en mente, como suele pasar.
 
 Está ahora ante un dilema social: puede seguir hablando con tono gracioso, pero no decir ningún chiste; puede pensar un chiste de manera espontánea, lo cual con su nivel humorístico es imposible; o podría recurrir a decir una frase que se suele repetir mucho, sobre todo en foros de internet, que no tiene ningún tipo de gracia, pero que aún así, a veces, parece hacer que el restos de humanos liberen grandes cantidades de Dopamina. 
 
 Decidiría ir con la primera opción, pues es la que supone el menor riesgo a ser rechazado socialmente; pero ha estado demasiado tiempo procesando toda la información y ya no es aceptable. Tiene que hacer un análisis marginal para ver si un chiste sin gracia es oportuno, pero está tardando demasiado. Se encuentra que está habiendo un fallo fatal en el sistema. Se finalizan todos los procesos de manera forzosa. Termina la frase de cualquier manera.
-- hacer lo primero… para que, no se, no se me…-. Murmura el resto de la oración. Le miran con cara rara, como suele pasar, y siguen conversando:
-- Pero eso no entraba, ¿no? - pregunta uno. Todos afirman que no al unísono.
+-hacer lo primero… para que, no se, no se me…-. Murmura el resto de la oración. Le miran con cara rara, como suele pasar, y siguen conversando:
+-Pero eso no entraba, ¿no? - pregunta uno. Todos afirman que no al unísono.
 
 Se empiezan a hacer preguntas, cuando le preguntan a él se queda al principio sin respuesta. Se pone nervioso porque no sabe la respuesta de inmediato. No obstante, recuerda que siempre sucede esto y simplemente no sabe relacionar la información que se ha memorizado y se relaja. Se lo explican más y lo responde, a duras penas, como suele pasar; y siguen preguntando.
 Suena el timbre, lo que significa que tienen que ir a clase para hacer el examen. Allí se encuentra con el resto de compañeros los cuales se enfrentarán a este reto junto a él. Ve dos grupos distintos: uno centrado en las revisiones y aclaraciones del último minuto y otro especializado en montar y repasar su método de obtención de datos externos de manera no permitida. 
@@ -47,22 +47,22 @@ Hace progreso, ha transferido los apuntes del lateral a debajo de su mesa, ahora
 Saca lentamente el papel con la información crítica. Mira al vacío para no levantar sospecha. De reojo ve a la profesora o, más bien, no la ve. Oye pasos desde detrás. Una sombra aparece en el lado derecho de la mesa. 
 -¿Has…-; oye, 
   
-El sonido llega como una flecha 
-Que se clava detrás en su nuca, 
-El arquero, la profesora sin duda, 
+El sonido llega como una flecha <br>
+Que se clava detrás en su nuca,  <br>
+El arquero, la profesora sin duda,  <br>
 El fin de sus días se acecha, 
   
--¿Debería atacar?
-¿Es, en mi mano, un lápiz o una espada?-
-De todos modos no podría ser utilizada
+-¿Debería atacar?  <br>
+¿Es, en mi mano, un lápiz o una espada?- <br>
+De todos modos no podría ser utilizada <br>
 En el mar uno no puede luchar
   
-Sudores, fríos como su traición
-Recorren su frente, su espalda y sus secretos
+Sudores, fríos como su traición <br>
+Recorren su frente, su espalda y sus secretos <br>
 Escenario vacío, se cierra el telón
   
--¡Reza, reza que igual vas al cielo!-
-Pero no es iluso, el fuego le está quemando
+-¡Reza, reza que igual vas al cielo!- <br>
+Pero no es iluso, el fuego le está quemando <br>
 Mira delante, ve su destino, ve el infiernos.
   
 -...terminado ya el examen?-

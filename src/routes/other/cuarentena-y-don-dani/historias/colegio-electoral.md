@@ -15,17 +15,18 @@ Se llama el National Popular Vote Interstate Compact, que utiliza el hecho de qu
 
 En conclusión, el Colegio Electoral es un compromiso necesario para fundar una nación o en tiempos donde la mayor velocidad de transmisión era un caballo. Pero hoy en día es un sistema anticuado y antidemocrático; que se debe; y, aprovechando el poder concedido al Colegio Electoral, puede; cambiar. 
 
-Fuentes: (que pretencioso soy)
+## Fuentes: 
+*(que pretencioso soy)*
 
 Vídeos de CGPGrey: 
--   [The Sneaky Plan to Subvert the Electoral College for the Next Election](https://youtu.be/tUX-frlNBJY)
--   [Spreadsheet Footnote: Electoral College & Apportionment Edition](https://youtu.be/6JN4RI7nkes)
--   [The Trouble with the Electoral College](https://youtu.be/7wC42HgLA4k)
--   [How the Electoral College Works](https://youtu.be/OUS9mM8Xbbw) 
--   [[UPDATED VERSION!] The Trouble With The Electoral College](https://youtu.be/zcZTTB10_Vo) 
-- 
-Wikipedias:
--   [United States Electoral College](https://www.wikiwand.com/en/United_States_Electoral_College)
--   [Colegio Electoral de los Estados Unidos](https://www.wikiwand.com/es/Colegio_Electoral_de_los_Estados_Unidos)
--   [Colegio electoral](https://www.wikiwand.com/es/Colegio_electoral)
--   [Sistema D'Hondt](https://www.wikiwand.com/es/Sistema_D%27Hondt)
+- [The Sneaky Plan to Subvert the Electoral College for the Next Election](https://youtu.be/tUX-frlNBJY)
+- [Spreadsheet Footnote: Electoral College & Apportionment Edition](https://youtu.be/6JN4RI7nkes)
+- [The Trouble with the Electoral College](https://youtu.be/7wC42HgLA4k)
+- [How the Electoral College Works](https://youtu.be/OUS9mM8Xbbw) 
+- [[UPDATED VERSION!] The Trouble With The Electoral College](https://youtu.be/zcZTTB10_Vo) 
+
+- Wikipedias:
+	- [United States Electoral College](https://www.wikiwand.com/en/United_States_Electoral_College)
+	- [Colegio Electoral de los Estados Unidos](https://www.wikiwand.com/es/Colegio_Electoral_de_los_Estados_Unidos)
+	- [Colegio electoral](https://www.wikiwand.com/es/Colegio_electoral)
+	- [Sistema D'Hondt](https://www.wikiwand.com/es/Sistema_D%27Hondt)

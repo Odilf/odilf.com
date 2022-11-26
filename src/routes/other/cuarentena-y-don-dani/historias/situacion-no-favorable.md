@@ -4,17 +4,13 @@ asignatura: Lengua
 fecha: 2020/04/04
 ---
 
-%%[^1]%%
+<!-- %%[^1]%%
 
-[^1]:  [Divergencia (matemática)](https://es.wikipedia.org/wiki/Divergencia_(matem%C3%A1tica))
-  
+[^1]: [Divergencia \(matemática\)](https://es.wikipedia.org/wiki/Divergencia_(matem%C3%A1tica)) -->
   
 # ♂
 
 Hay una chica en mi curso. No la conozco, pero es increíble. Yo siempre estaba convencido que estaba totalmente fuera de mi liga pero creo que he visto comportamiento que indicaría lo contrario. Yo tenía asumidísimo de que no estaba interesada en mi, pero cambió mi mente cuando un día, al acabar el cole, me fui. Siempre paso por su lado, pero intento ser discreto. Esta vez, me di cuenta de que me faltaba un cuaderno. Ya era un poco tarde así que volví a clase por un camino más rápido, por el cual en general no se va. Salí de nuevo por la ruta usual y pasé por su lado, pero antes también la había pasado. Por eso me preguntó: “¿No te habías ido ya?” a lo que le respondí: “Es que se me olvidó un cuaderno. ¿Y cómo te has dado cuenta?” y me fui con un corazón ardiente.
-
-  
-  
 
 # ♀
 

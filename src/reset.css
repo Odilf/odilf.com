@@ -41,6 +41,10 @@ button {
 	box-shadow: none;
 }
 
-li {
+ul > li {
 	list-style: none;
 }
+
+/* main {
+	z-index: 0;
+} */

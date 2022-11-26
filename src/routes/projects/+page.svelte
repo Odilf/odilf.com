@@ -5,6 +5,10 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title> Projects </title>
+</svelte:head>
+
 <main class='content'>
 	<h1> Projects </h1>
 	<p class='faint'>
@@ -26,7 +30,6 @@
 
 	
 <style>
-
 	ul {
 		padding: 0;
 		display: flex;

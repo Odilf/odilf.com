@@ -24,7 +24,9 @@ En cualquier momento vendrán gente buscándole. Como siempre, solo le hacen cas
 
 Vamos, que sí que no le ha servido para nada. Nada de lo que ha hecho en su vida en general. Siente el gusto que le llegaría si descansase al fin, pero tampoco tiene razón para que se alegre de algo. Ya estaba acostumbrado a la ausencia de felicidad en su vida. ¿Y cuánto tiempo ha pasado? A lo mejor podrían estar ya cerca. A ver si se queda despierto hasta que vengan. Cierra un poco sus ojos y se le forma una leve sonrisa, la cual se le va enseguida cuando le despiertan unos gritos. Aunque, al parecer, no fue realmente en seguida, porque ya está amaneciendo. Ya no puede quedarse despierto más tiempo, les pide a los caballeros que han venido a por el que si le devuelven a la vida, que, por lo menos, sea una distinta, y se va propiamente dormir. Con la mayor sonrisa de su vida. 
   
---- 
+---
+
+<br>
 
 **Odiseas Machairas. 4ºC, 18;**
 
