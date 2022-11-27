@@ -22,4 +22,4 @@ I was born in Greece but I've lived all over the place. I spent 2 years in Greec
 
 I came up with the username "Odilf" in primary schoold when creating my Club Penguin account (good times). "Odi" is the start of my name (I actually used to misspell it because it was easier for other people to write and remember Odiseas than Odysseas). The "l" and the "f" stand for **L**uis and Al**f**onso, which were my two closest friends at the time.
 
-<span class='faint'> No, it doesn't have to do with old dudes I'd like to fuck .-. </span>
+<span class='faint'> No, it doesn't have to do with old dudes I'd like to fuck -_- </span>
