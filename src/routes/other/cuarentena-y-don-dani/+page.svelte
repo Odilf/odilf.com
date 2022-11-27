@@ -1,6 +1,6 @@
 <script lang="ts">
     import Back from "$lib/Back.svelte";
-    import BlogEntry from "$lib/BlogEntry.svelte";
+    import BlogEntry from "$lib/article/Entry.svelte";
     import type { PageData } from "./$types";
 
 	export let data: PageData

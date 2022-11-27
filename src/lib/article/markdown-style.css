@@ -1,5 +1,5 @@
-.md-p {
-	margin-bottom: 1em;
+.md-p, .md-ol, .md-ul {
+	margin-top: 1em;
 }
 
 .md-ul > .md-li {

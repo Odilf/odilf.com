@@ -4,6 +4,7 @@ import { mdsvex } from 'mdsvex'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex-svelte' 
 import remarkGfm from 'remark-gfm';
+import remarkFootnotes from 'remark-footnotes';
 import addClasses from 'rehype-add-classes';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -16,10 +17,14 @@ const config = {
 	preprocess: [
 		mdsvex({
 			extensions: [".md"],
-			remarkPlugins: [remarkGfm, remarkMath],
+			remarkPlugins: [
+				remarkFootnotes,
+				remarkGfm, 
+				remarkMath,
+			],
 			rehypePlugins: [
 				rehypeKatex,
-				[addClasses, { p: 'md-p', ul: 'md-ul', ol: 'md-ol', li: 'md-li', 'h1,h2,h3': 'md-heading' }]
+				[addClasses, { p: 'md-p', ul: 'md-ul', ol: 'md-ol', li: 'md-li', 'h1,h2,h3': 'md-heading' }],
 			],
 		}),
 

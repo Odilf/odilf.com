@@ -1,4 +1,5 @@
 <main>
+	<img src="/logo.svg" alt='Logo'>
 	<h1> Welcome! 👋 </h1>
 
 	<p>
@@ -21,9 +22,31 @@
 		place-content: center;
 
 		height: 100%;
+		position: relative;
+		overflow: hidden;
 	}
 
 	a {
 		color: var(--accent)
+	}
+
+	img {
+		position: absolute;
+		z-index: -10;
+		opacity: 10%;
+		height:100%;
+
+		/* transform: rotate(180deg); */
+		animation: 40s linear 0s infinite rotate;
+	}
+
+	@keyframes rotate {
+		from {
+			transform: rotate(0deg)
+		}
+
+		to {
+			transform: rotate(360deg);
+		}
 	}
 </style>

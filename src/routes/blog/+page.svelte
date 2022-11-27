@@ -1,5 +1,5 @@
 <script lang="ts">
-    import BlogEntry from "$lib/BlogEntry.svelte";
+    import BlogEntry from "$lib/article/Entry.svelte";
     import { dateOptions } from "$lib/globals";
     import type { PageData } from "./$types";
 

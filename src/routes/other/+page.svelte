@@ -1,5 +1,5 @@
 <script>
-    import BlogEntry from "$lib/BlogEntry.svelte";
+    import Entry from "$lib/article/Entry.svelte";
 </script>
 
 <svelte:head>
@@ -13,7 +13,7 @@
 		These are some things I've written over the years
 	</p>
 
-	<BlogEntry 
+	<Entry 
 		title="Tales of quarantine (Historias de cuarentena, y Don Dani)"
 		subtitle="Some stories and writing I did in quarantine, mostly for Spanish class with my beloved teacher, Don Dani"
 		link="./other/cuarentena-y-don-dani"/>
