@@ -31,6 +31,7 @@ export const projects: readonly Project[] = [
 		name: "FAM.com",
 		description: "The official Maggie fanpage",
 		repo: "https://github.com/Odilf/FAM/",
+		website: "https://famm.odilf.com/",
 
 		startDate: new Date("2021-10-18"),
 		status: 'finished',
