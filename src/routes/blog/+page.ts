@@ -20,8 +20,9 @@ export const fetchMarkdownPosts = async () => {
 		})
 	)
 
-	return posts
-	
+	return posts.sort((a, b) => {
+		return new Date(b.date).getTime() - new Date(a.date).getTime()
+	})
 }
 
 export const load: PageLoad = async () => {

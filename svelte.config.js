@@ -1,11 +1,11 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+
 import { mdsvex } from 'mdsvex'
 import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex-svelte' 
-import remarkGfm from 'remark-gfm';
-import remarkFootnotes from 'remark-footnotes';
+import rehypeKatex from 'rehype-katex-svelte'
 import addClasses from 'rehype-add-classes';
+import rehypeSlug from 'rehype-slug';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -18,13 +18,12 @@ const config = {
 		mdsvex({
 			extensions: [".md"],
 			remarkPlugins: [
-				remarkFootnotes,
-				remarkGfm, 
 				remarkMath,
 			],
 			rehypePlugins: [
 				rehypeKatex,
-				[addClasses, { p: 'md-p', ul: 'md-ul', ol: 'md-ol', li: 'md-li', 'h1,h2,h3': 'md-heading' }],
+				[addClasses, { p: 'md-p', ul: 'md-ul', ol: 'md-ol', li: 'md-li', 'h1,h2,h3,h4,h5,h6': 'md-heading', a: 'link' }],
+				rehypeSlug,
 			],
 		}),
 
