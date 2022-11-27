@@ -26,6 +26,10 @@
 		transition: all 500ms ease;
 	}
 
+	* :global(h1) {
+		font-weight: 800;
+	}
+
 	* :global(.heading:target) {
 		background-color: var(--neutral-hover);
 		padding-inline: 0.5em;

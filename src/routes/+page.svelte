@@ -37,7 +37,7 @@
 		height:100%;
 
 		/* transform: rotate(180deg); */
-		animation: 40s linear 0s infinite rotate;
+		animation: 40s ease 0s infinite rotate;
 	}
 
 	@keyframes rotate {
