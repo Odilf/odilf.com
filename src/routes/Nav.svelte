@@ -3,6 +3,7 @@
 	<a href='/projects'> Projects </a>
 	<a href='/blog'> Blog </a>
 	<a href='/other'> Other </a>
+	<a href='/about'> About </a>
 </nav>
 
 <style>
@@ -10,7 +11,6 @@
 		background-color: var(--primary);
 		color: var(--primary-content);
 
-		position: fixed;
 		position: sticky;
 		top: 0;
 		z-index: 1;

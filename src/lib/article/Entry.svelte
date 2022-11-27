@@ -12,7 +12,7 @@
 
 <style>
 	h2 {
-		font-weight: 100;
+		font-weight: 200;
 	}
 	
 	a {

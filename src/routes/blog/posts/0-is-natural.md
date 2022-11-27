@@ -3,7 +3,9 @@ title: 0 is natural
 date: 2020-11-21
 ---
 
-Apparently some people believe that $0$ is not a natural number. Some people seem to argue that $0$ is not even odd. One such person used to be my math teacher. I think $0$ is so obviously even it's not even worth arguing, but there is reason to say that $0$ isn't natural. This is why I've compiled a number of reasons why $0$ should be considered a natural number. 
+Apparently some people believe that $0$ is not a natural number. Some people seem to argue that $0$ is not even odd. One such person used to be my math teacher. 
+
+I think $0$ is so obviously even it's not even worth arguing, but there is reason to say that $0$ isn't natural. This is why I've compiled a number of reasons why $0$ should be considered a natural number. 
 
 # $$0 \in \mathbb{N}$$ 
 

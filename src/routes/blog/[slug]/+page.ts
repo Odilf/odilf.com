@@ -10,5 +10,6 @@ export const load: PageLoad = async ({ params }) => {
 		title,
 		content,
 		date,
+		outlineDepth: post.metadata.outline_depth ?? 0
 	};
 };

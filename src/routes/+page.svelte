@@ -21,7 +21,7 @@
 		place-items: center;
 		place-content: center;
 
-		height: 100%;
+		height: calc(100% - var(--navbar-height));
 		position: relative;
 		overflow: hidden;
 	}

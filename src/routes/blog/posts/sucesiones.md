@@ -1,6 +1,7 @@
 ---
 title: Series that don't have 3s
 date: 2022-05-19
+outline_depth: 2
 ---
 
 My 2019 attempt to make a series that has $0$ every third element and $n$ otherwise.
@@ -47,11 +48,14 @@ So if we just multiply by the index, $n$, we have our series!
 
 $$
 \begin{equation}
-	a_n = n \left(
+	\begin{align*}
+	a_n &= n \left(
 		\sin\left( \frac{n \tau}{3} \right) \frac{2 \sqrt{3}}{3}
-	\right)^2 
+	\right)^2  \\
 
-	= \frac{4n}{3} \sin^2\left( \frac{n \tau}{3} \right)
+	&= \frac{4n}{3} \sin^2\left( \frac{n \tau}{3} \right)
+
+	\end{align*}
 \end{equation}
 $$
 
@@ -202,7 +206,7 @@ $$
 
 As before, this is the start of a counter that goes $1$, $2$, $3$, $1$, $2$, $3$, $4$, $5$, ... So this counter works until $n = 6$. 
 
-One way to extend it is to "change" the $n$. More precisesly, if we input numbers between $1$ and $6$ to $c_n$, then it's going to work. The thing is that $c_n$ provides numbers between $0$ and $6$ until $n = 9$!
+One way to extend it is to "change" the $n$. More precisely, if we input numbers between $1$ and $6$ to $c_n$, then it's going to work. The thing is that $c_n$ provides numbers between $1$ and $6$ until $n = 9$!
 
 $$
 e_n = c_{c_n}
@@ -218,9 +222,9 @@ So $c_{c_n}$ is:
 
 $$
 \begin{align*}
-	c_{c_n}  &= c_n - \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) \\
+	c_{c_n}  &= c_n &- \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) \\
 
-	&= n - \frac{3}{2}\left(\frac{ |2n - 7| }{2n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right)
+	&= n - \frac{3}{2}\left(\frac{ |2n - 7| }{2n - 7} + 1 \right) &- \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right)
 \end{align*}
 $$
 
@@ -229,9 +233,9 @@ We can then input $c_{c_n}$ into $c_n$ to get it to work until $n = 12$:
 $$
 \begin{align*}
 	c_{c_{c_n}} 
-	&= c_n - \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_{c_n} - 7| }{2c_{c_n} - 7} + 1 \right) \\
+	&= c_n &- \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_{c_n} - 7| }{2c_{c_n} - 7} + 1 \right) \\
 	
-	&= n - \frac{3}{2}\left(\frac{ |2n - 7| }{2n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_{c_n} - 7| }{2c_{c_n} - 7} + 1 \right)
+	&= n - \frac{3}{2}\left(\frac{ |2n - 7| }{2n - 7} + 1 \right) &- \frac{3}{2}\left(\frac{ |2c_n - 7| }{2c_n - 7} + 1 \right) - \frac{3}{2}\left(\frac{ |2c_{c_n} - 7| }{2c_{c_n} - 7} + 1 \right)
 \end{align*}
 $$
 
@@ -246,9 +250,9 @@ There is still one small problem. This recursion, as it stands, is infinte; any 
 ### Proof
 
 
-Let's observe that $\frac{ |2r_n - 7| }{2r_n - 7}$ is always either $1$ or $-1$. This means that $\left(\frac{ |2r_n - 7| }{2r_n - 7} + 1 \right)$ is always $0$ or $2$, which in turn implies that $-\frac{3}{2}\left(\frac{ |2r_n - 7| }{2r_n - 7} + 1 \right)$ is always $0$ or $3$.
+First, observe that $\frac{ |2r_n - 7| }{2r_n - 7}$ is always either $1$ or $-1$. This means that $\frac{ |2r_n - 7| }{2r_n - 7} + 1$ is always $0$ or $2$, which in turn implies that $-\frac{3}{2}\left(\frac{ |2r_n - 7| }{2r_n - 7} + 1 \right)$ is always $0$ or $3$.
 
-Using this, we can deduce that $\forall n (r_n \le n)$, since $r_n = n - 0$ or $r_n = n - 3$ and both are not positive. 
+Using this, we can deduce that $\forall n (r_n \le n)$, since $r_n = n - 0$ or $r_n = n - 3$ and both satisy this condition. 
 
 Now, according to the definition of $r_n$, the value of $r_0$ is the following: 
 

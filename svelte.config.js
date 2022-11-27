@@ -16,13 +16,14 @@ const config = {
 
 	preprocess: [
 		mdsvex({
+			layout: "src/lib/article/MarkdownLayout.svelte",
 			extensions: [".md"],
 			remarkPlugins: [
 				remarkMath,
 			],
 			rehypePlugins: [
 				rehypeKatex,
-				[addClasses, { p: 'md-p', ul: 'md-ul', ol: 'md-ol', li: 'md-li', 'h1,h2,h3,h4,h5,h6': 'md-heading', a: 'link' }],
+				[addClasses, { 'h1,h2,h3,h4,h5,h6': 'heading', a: 'link' }],
 				rehypeSlug,
 			],
 		}),

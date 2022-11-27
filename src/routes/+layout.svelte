@@ -4,12 +4,4 @@
 </script>
 
 <Nav/>
-<div>
-	<slot />
-</div>
-
-<style>
-	div {
-		height: calc(100% - 56px);
-	}
-</style>
+<slot />
