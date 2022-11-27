@@ -67,7 +67,7 @@ Once I presented this solution to my teacher, she proposed to me a new challenge
 
 ## 2. Complex numbers
 
-Acutally, there is quite a simple workaround, but it's kind of cheesy. 
+Actually, there is quite a simple workaround, but it's kind of cheesy. 
 
 We know that complex numbers can be expressed as 
 
