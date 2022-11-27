@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
 export const fetchMarkdownPosts = async () => {
-	const postFiles = import.meta.glob('/src/routes/other/cuarentena-y-don-dani/historias/*.md')
+	const postFiles = import.meta.glob('/src/routes/blog/cuarentena-y-don-dani/historias/*.md')
 	
 	const posts = await Promise.all(
 		Object.entries(postFiles).map(async ([path, resolver]) => {
@@ -22,7 +22,7 @@ export const fetchMarkdownPosts = async () => {
 				titulo, 
 				fecha,
 				asignatura,
-				path: path.slice(50, -3),
+				path: path.slice(49, -3),
 			}
 		})
 	)
