@@ -1,6 +1,7 @@
 ---
 title: 0 is natural
 date: 2020-11-21
+topics: "math"
 ---
 
 Apparently some people believe that $0$ is not a natural number. Some people seem to argue that $0$ is not even odd. One such person used to be my math teacher. 

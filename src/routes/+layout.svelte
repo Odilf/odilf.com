@@ -6,7 +6,6 @@
 	onMount(() => {
 		setTimeout(() => {
 			window.scrollTo(0, 0)
-			console.log('huh');
 		}, 0)
 	})
 </script>

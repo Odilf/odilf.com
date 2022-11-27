@@ -7,7 +7,11 @@
 	</p>
 		
 	<p>
-		You can check out my <a href="/projects"> projects </a> or my <a href="/blog"> blog </a>
+		You can start by checking out my <a href="/projects"> projects</a>.
+	</p>
+
+	<p>
+		You can also take a look at the <a href='/blog'>blog</a> I apparently now have.
 	</p>
 </main>
 
@@ -36,7 +40,6 @@
 		opacity: 10%;
 		height:100%;
 
-		/* transform: rotate(180deg); */
 		animation: 40s ease 0s infinite rotate;
 	}
 

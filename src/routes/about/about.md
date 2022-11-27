@@ -17,3 +17,9 @@ I did the spanish Bachillerato and the IB, finishing with a 42/45. In the IB spe
 # All around
 
 I was born in Greece but I've lived all over the place. I spent 2 years in Greece, 3 in Belgium, but most of my life I've lived in Spain. I moved to the Netherlands when I turned 18 to study Computer Science at TUDelft.
+
+# Why "Odilf"?
+
+I came up with the username "Odilf" in primary schoold when creating my Club Penguin account (good times). "Odi" is the start of my name (I actually used to misspell it because it was easier for other people to write and remember Odiseas than Odysseas). The "l" and the "f" stand for **L**uis and Al**f**onso, which were my two closest friends at the time.
+
+<span class='faint'> No, it doesn't have to do with old dudes I'd like to fuck .-. </span>

@@ -1,16 +1,30 @@
 <script lang="ts">
+    import Outline from '$lib/article/Outline.svelte';
 	import About from './about.md'
+
+	let articleElement: HTMLElement
 </script>
 
-<main class='content'>
-	<h1> About me </h1>
+<div class='wrapper'>
+	<div/>
 
-	<About />
-	<!-- <p>
-		I'm Odysseas Machairas, also know as Ody, also known as Οδυσσέας Μαχαίρας. I was born in Greece, I've lived in Spain from 5 to 18 years old, and now I'm in the Netherlands studying Computer Science at TUDelft.
-	</p>
+	<main class='content'>
 
-	<p>
-		I really like math and music (and cuddles, but that doesn't fit here). I did the spanish Bachillerato and the IB, finishing with a 42/45.
-	</p> -->
-</main>
+		<div>
+			<h1> About me </h1>	
+			<section bind:this={articleElement}>
+				<About />
+			</section>
+		</div>
+	</main>
+
+	<Outline {articleElement} outlineDepth={2}/>
+</div>
+
+
+<style>
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
+	}
+</style>
