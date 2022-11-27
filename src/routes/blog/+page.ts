@@ -6,7 +6,7 @@ export const fetchMarkdownPosts = async () => {
 	
 	const posts = await Promise.all(
 		Object.entries(postFiles).map(async ([path, resolver]) => {
-			let { title, date } = (await resolver() as any)?.metadata
+			let { title, date } = (await resolver() as any).metadata
 
 			if (title == null || date == null) {
 				throw error(500, "Markdown file is not formatted correctly")

@@ -1,12 +1,10 @@
 <script lang="ts">
-    import { onMount } from "svelte";
+    import { afterNavigate } from "$app/navigation";
 	import "../styles.css"
     import Nav from "./Nav.svelte";
 
-	onMount(() => {
-		setTimeout(() => {
-			window.scrollTo(0, 0)
-		}, 0)
+	afterNavigate(() => {
+		document.body.scrollTo(0, 0)
 	})
 </script>
 

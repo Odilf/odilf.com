@@ -2,7 +2,7 @@
 title: Series that don't have 3s
 date: 2022-05-19
 outline_depth: 2
-topics: "math", "personal"
+topics: "math personal"
 ---
 
 My 2019 attempt to make a series that has $0$ every third element and $n$ otherwise.
