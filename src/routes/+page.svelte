@@ -1,5 +1,6 @@
 <main>
 	<img src="/logo.svg" alt='Logo'>
+
 	<h1> Welcome! 👋 </h1>
 
 	<p>
@@ -38,9 +39,13 @@
 		position: absolute;
 		z-index: -10;
 		opacity: 10%;
-		height:100%;
+		height: 100%;
 
-		animation: 40s ease 0s infinite rotate;
+		filter: drop-shadow(0px 0px 24px var(--primary));
+
+		animation: 
+			15s cubic-bezier(0.25, 1, 0.5, 1) 0s forwards fade-in,
+			20s cubic-bezier(0.83, 0, 0.17, 1) 0s infinite rotate;
 	}
 
 	@keyframes rotate {
@@ -50,6 +55,18 @@
 
 		to {
 			transform: rotate(360deg);
+		}
+	}
+
+	@keyframes fade-in {
+		from {
+			scale: 0.8;
+			opacity: 0%;
+		}
+
+		to {
+			scale: 1;
+			opacity: 10%;
 		}
 	}
 </style>

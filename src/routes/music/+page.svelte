@@ -7,6 +7,6 @@
 	</p>
 
 	<p class='faint'>
-		Is there a nice place to put my stuff?
+		Is there a nice place to put my stuff? Like a free/open-source version of Spotify or soundcloud...
 	</p>
 </main>
