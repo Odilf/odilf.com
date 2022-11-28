@@ -26,6 +26,9 @@
 		place-items: center;
 		place-content: center;
 
+		text-align: center;
+		padding: 1em;
+
 		height: calc(100% - var(--navbar-height));
 		position: relative;
 		overflow: hidden;
