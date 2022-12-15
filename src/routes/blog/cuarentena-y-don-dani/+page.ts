@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
-export const fetchMarkdownPosts = async () => {
+const fetchMarkdownPosts = async () => {
 	const postFiles = import.meta.glob('/src/routes/blog/cuarentena-y-don-dani/historias/*.md')
 	
 	const posts = await Promise.all(
